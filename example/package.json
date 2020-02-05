@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "example",
   "version": "1.0.0",
   "main": "index.js",
@@ -6,12 +7,22 @@
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
-    "build": "gatsby build"
+    "build": "gatsby build",
+    "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^2.19.7",
     "gatsby-theme-minimal": "^1.0.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "gatsby-source-contentful": "^2.1.85",
+    "dotenv": "^8.2.0"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.6.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "gatsby": "^2.6.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   }
 }
